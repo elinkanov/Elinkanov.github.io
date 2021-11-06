@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+
+}
+.top{
+	width: 100%;
+	height: 80px;
+	background: rgb(82, 82, 108);
+}
+
+
+
+.main {
+	width: 100%;
+	min-height: 500px;
+	background: rgb(68, 68, 73);
+}
+nav{
+	float: right;
+
+}
+nav ul{
+	margin: 15px;
+	padding: 0;
+	list-style: none;
+
+}
+nav li{
+	display: inline-block;
+	margin-left: 10px;
+
+}
+nav a{
+	text-decoration: none;
+	line-height: 45px;
+	color: white;
+
+}
+
+.element {
+	width: 100%;
+	min-height: 300px;
+
+}
+.okno{
+	width: 100%;
+	height: 400px;
+	background: url(images/okno/3.jpg);
+	background-size: cover;
+	margin-bottom: 10px;
+	
+}
+.img-box{
+	column-count: 4;
+	column-gap: 1px;
+	width: 70%;
+	margin: auto;
+}
+.image {
+	max-width: 100%;
+	display: block;
+	margin-bottom: 1px;
+	opacity: 0.1;
+	transition: opacity 1s ease, transform 1s ease-in, box-shadow 1s ease;
+}
+.image:hover {
+	opacity: 1;
+	transform: scale(1.2) rotate(5deg);
+	z-index: 10;
+	box-shadow: 0 0 100px 30px red;
+}
